@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Tilt Neon', cursive;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('giphy.gif');
+    background-size: cover;
+    padding: 0;
+    margin:0;
+    
+}
+.main{
+    padding-top: 10rem;
+    
+}
+.container{
+    border: 2px solid;
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    height: 50vh;
+    padding: auto;
+    margin: auto;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+    
+}
+.text{
+    margin-top: 2rem;
+    font-size: 50px;
+    background-color: #8854c0;
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+}
+.showscore{
+    font-weight: bolder;
+    font-size: 60px;
+    margin-top: 1rem;
+}
+
+.btn{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    justify-content: center;
+}
+.buttons{
+    text-decoration: none;
+    font-weight: bolder;
+    color:#8854c0;
+    font-size: larger;
+    padding: 5px;
+    border-radius: 6px;
+    border: 3px solid #8854c0;
+   
+}
+
+#username{
+    text-align: center;
+    font-size: large;
+}
+#btn1{
+    
+    font-size: larger;
+    padding: 3px 10px;
+    margin-right: 20px;
+    cursor: pointer;
+    
+}
+#btn2{
+    font-size: larger;
+    padding: 3px 10px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+#btn1:disabled{
+    opacity: 0.6;
+}
